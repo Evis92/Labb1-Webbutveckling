@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(135, 188, 159);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #004700;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header {
+  background-color: rgb(135, 188, 159);
+}
+
+.instagram {
+  height: 40px;
+}
+
+.instagram:hover {
+  border-radius: 30%;
+  background-color: rgb(84, 137, 108);
+}
+
+.facebook {
+  height: 40px;
+}
+
+.facebook:hover {
+  border-radius: 20%;
+  background-color: rgb(84, 137, 108);
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar {
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+}
+
+.navlink:hover {
+  text-underline-position: below;
+}
+
+.mainbuildingPic {
+  width: 100vw;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+}
+
+.mainpicccc {
+  width: 100%;
+  margin: 0px;
+  padding: 0%;
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  color: white;
+  width: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.weather-time-widget {
+  margin-left: auto;
+  padding: 0 15px;
+  color: white;
+}
+
+.weather-time-info {
+  margin: 0;
+  font-size: 1rem;
+}

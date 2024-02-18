@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(135, 188, 159);
+}
+
+h1 {
+  color: #004700;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: end;
+  margin: auto;
+}
+
+.socialItem {
+  height: 40px;
+}
+
+.socialItem:hover {
+  border-radius: 30%;
+  background-color: rgb(84, 137, 108);
+}
+
+.navbar {
+  background-color: rgb(135, 188, 159);
+}
+
+#accomodations li {
+  list-style-type: none;
+  border: none; /* Tar bort ramen */
+}
+
+.card-footer {
+  width: 100%;
+  border: none;
+  align-self: center;
+  background-color: white;
+}
+
+.cartListItem {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+
+#cardFooter {
+  background-color: rgb(135, 188, 159);
+}
+
+.CardPrice {
+  margin-left: 10%;
+}
+
+.btn-Remove {
+  height: 20%;
+}

@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 0%;
+}
+
+header {
+  background-color: rgb(135, 188, 159);
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: end;
+  margin: auto;
+}
+
+.img {
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+  margin: 0%;
+}
+
+.pool {
+  width: 80%;
+}
+
+.descriptionText {
+  margin-top: 40%;
+  color: #004700;
+  width: 50%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.locationText {
+  width: 100%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h6 {
+  font-size: larger;
+}
+
+.navbar {
+  background-color: rgb(135, 188, 159);
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #004700;
+}
+
+.tripPic {
+  width: 70%;
+  height: auto;
+}
+
+.rowMargin {
+  margin-top: 20%;
+}
+
+.instagram {
+  height: 40px;
+}
+
+.instagram:hover {
+  border-radius: 30%;
+  background-color: rgb(84, 137, 108);
+}
+
+.facebook {
+  height: 40px;
+}
+
+.facebook:hover {
+  border-radius: 20%;
+  background-color: rgb(84, 137, 108);
+}
+
+footer {
+  background-color: rgb(135, 188, 159);
+}
